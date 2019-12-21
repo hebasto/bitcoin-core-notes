@@ -26,10 +26,12 @@ Command exited with code 1
 ### Solution
 
 ```
-curl -H "Authorization: Bearer $APPVEYOR_TOKEN" -H "Content-Type: application/json" -X "DELETE" https://ci.appveyor.com/api/project/hebasto/bitcoin/buildcache
+curl -H "Authorization: Bearer $APPVEYOR_TOKEN" -H "Content-Type: application/json" -X DELETE https://ci.appveyor.com/api/project/hebasto/bitcoin/buildcache
 ```
 
 ### Discussion
+
+- https://github.com/bitcoin/bitcoin/pull/17736#issuecomment-565157833
 
 - https://github.com/bitcoin/bitcoin/pull/14086#issuecomment-417842075
 
