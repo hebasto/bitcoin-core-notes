@@ -26,7 +26,7 @@ Command exited with code 1
 ### Solution
 
 ```
-curl -H "Authorization: Bearer $APPVEYOR_TOKEN" -H "Content-Type: application/json" -X DELETE https://ci.appveyor.com/api/project/hebasto/bitcoin/buildcache
+curl -H "Authorization: Bearer $APPVEYOR_TOKEN" -H "Content-Type: application/json" -X DELETE https://ci.appveyor.com/api/projects/hebasto/bitcoin/buildcache
 ```
 
 ### Discussion
